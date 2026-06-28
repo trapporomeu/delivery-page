@@ -288,12 +288,11 @@ footer {
     background: var(--dark);
     color: #fff;
 
-    .copy {
-        font-size: 1.5rem;
-    }
+
 }
 
-footer .copy {
+.footer .copy {
+    font-size: 1.3rem;
     grid-column: 1/-1;
     text-align: center;
     color: #fff;
@@ -303,7 +302,7 @@ footer .copy {
     padding: 0.4px 4px 1.2px;
 }
 
-footer .copy a {
+.footer .copy a {
     text-decoration: none;
     color: #fff;
 
