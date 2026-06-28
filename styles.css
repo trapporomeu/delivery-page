@@ -287,9 +287,29 @@ footer {
     padding: 60px 5% 20px;
     background: var(--dark);
     color: #fff;
+
+    .copy {
+        font-size: 1.5rem;
+    }
 }
 
 footer .copy {
     grid-column: 1/-1;
     text-align: center;
+    color: #fff;
+    border: 1px solid #ffffff7e;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 0.4px 4px 1.2px;
+}
+
+.footer .copy a {
+    text-decoration: none;
+    color: #fff;
+
+    &:hover {
+        text-decoration: underline;
+        color: #d69443;
+        cursor: pointer;
+    }
 }
