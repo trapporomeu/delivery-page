@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap'); 
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
 }
 
 :root {
@@ -42,7 +45,7 @@ html {
     display: inline-block;
     padding: 12px 24px;
     color: #fff;
-    border-radius: 8px;
+    border-radius: 20px;
     font-weight: 600;
     transition: 0.3s;
     cursor: pointer;
